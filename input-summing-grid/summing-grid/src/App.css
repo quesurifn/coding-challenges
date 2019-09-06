@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container {
+  display: flex; 
+  flex-wrap: wrap;
+}
+
+.cell {
+  flex-grow: 0.25;
+  border: 1px solid;
+}
+
+@media (max-width: 780px) {
+  .cell {
+    width: calc(50% - 2px)
+  }
+}
+
+@media (max-width: 360px) {
+  .cell {
+    width: calc(100% - 2px)
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "AdHoc Homework Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "kyle.c.r.fahey@gmail.com",
+  "license": "ISC"
+}
